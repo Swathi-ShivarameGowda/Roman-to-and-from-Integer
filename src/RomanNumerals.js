@@ -1,13 +1,15 @@
-import './App.css';
-import ConvertToRoman from './helper/ConvertToRoman';
-import ConvertFromRoman from './helper/ConvertFromRoman';
+import './RomanNumerals.css';
+import ToRoman from './helper/ToRoman';
+import FromRoman from './helper/FromRoman';
 
 function RomanNumerals() {
   return (
     <div className="App">
-        <ConvertToRoman />
-        <br></br><br></br>
-        <ConvertFromRoman />
+    <h1>Conversion App</h1>
+    <div className="helper">
+        <ToRoman />
+        <FromRoman />
+    </div>
     </div>
   );
 }

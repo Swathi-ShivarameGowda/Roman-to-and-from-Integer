@@ -4,16 +4,36 @@ margin-right: 10px;
 margin-top: 50px;
 margin-bottom: 50px;
   text-align: center;
-  display: flex;
+      color: purple;
+      background-color: lavender;
+      padding-bottom: 50px;
+
 }
 
+.helper {
+  display: flex;
+  }
+
 .To-Roman {
-display: block;
+display: grid;
+margin-left: 180px;
+}
+
+.To-Roman button {
+margin-top:20px;
+background-color: #0000FF;
+color: white;
 }
 
 .To-Integer {
-display: block;
-margin-left: 20px;
+display: grid;
+margin-left: 200px;
+}
+
+.To-Integer button {
+margin-top:20px;
+background-color: #0000FF;
+color: white;
 }
 
 .App-logo {
