@@ -1,5 +1,19 @@
 .App {
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 50px;
+margin-bottom: 50px;
   text-align: center;
+  display: flex;
+}
+
+.To-Roman {
+display: block;
+}
+
+.To-Integer {
+display: block;
+margin-left: 20px;
 }
 
 .App-logo {
